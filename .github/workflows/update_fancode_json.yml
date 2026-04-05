@@ -23,7 +23,7 @@ jobs:
       - name: Configure Git User
         run: |
           git config --global user.name "sportlive18"
-          git config --global user.email "spal75084@gmail.com"
+          git config --global user.email "271363488+sportlive18@users.noreply.github.com"
 
       - name: Sync and Update Log
         run: |
