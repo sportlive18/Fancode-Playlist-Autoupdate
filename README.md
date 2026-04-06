@@ -21,7 +21,7 @@
 
 This automated service is based on data collected and maintained by others. We provide full credit to the original source:
 
-* **Original Source Repository:** [sayanpal514-hue/FANCODE-AUTO-UPDATED-PLAYLIST](https://github.com/sayanpal514-hue/FANCODE-AUTO-UPDATED-PLAYLIST)
+**Original Source Repository:** [https://github.com/drmlive/fancode-live-events)
 
 ---
 
