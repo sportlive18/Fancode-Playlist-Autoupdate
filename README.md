@@ -48,7 +48,7 @@ We encourage developers, data enthusiasts, and FanCode fans to **Clone this repo
 
 We extend our sincere thanks to the creator of **sayanpal514-hue/FANCODE-AUTO-UPDATED-PLAYLIST** for their valuable contribution to the open-source community. This project would not be possible without their consistent effort.
 
-👉 **Please support the original source by giving them a Star: [sayanpal514-hue/FANCODE-AUTO-UPDATED-PLAYLIST](https://github.com/sayanpal514-hue/FANCODE-AUTO-UPDATED-PLAYLIST)**
+👉 **Please support the original source by giving them a Star: [drmlive/fancode-live-events](https://github.com/drmlive/fancode-live-events)**
 
 ---
 
