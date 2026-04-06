@@ -1,5 +1,4 @@
 name: Automated FanCode JSON Updater
-
 on:
   schedule:
     - cron: '*/7 * * * *'
@@ -13,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,7 +27,23 @@ jobs:
         run: |
           export TZ="Asia/Kolkata"
           git pull origin main --rebase
-          curl -sS -o fancode.json "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json"
+
+          # ✅ Fetch with failure detection
+          HTTP_STATUS=$(curl -sS -w "%{http_code}" -o fancode.json \
+            "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json")
+
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "❌ Curl failed with HTTP status: $HTTP_STATUS"
+            exit 1
+          fi
+
+          # ✅ Validate it's actual JSON before proceeding
+          if ! python3 -c "import json,sys; json.load(open('fancode.json'))" 2>/dev/null; then
+            echo "❌ Downloaded file is not valid JSON"
+            cat fancode.json
+            exit 1
+          fi
+
           echo "🚀 FanCode Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | ID: $RANDOM" >> fancode.txt
 
       - name: Commit and Push
@@ -38,4 +52,10 @@ jobs:
           git add fancode.json fancode.txt
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "FanCode Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
-          git push origin main
+
+          # ✅ Retry push up to 3 times to handle concurrent run conflicts
+          for i in 1 2 3; do
+            git push origin main && break
+            echo "Push failed (attempt $i), retrying after rebase..."
+            git pull origin main --rebase
+          done
