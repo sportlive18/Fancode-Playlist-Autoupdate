@@ -1,8 +1,22 @@
 {
     "name": "Fancode Live Matches Data in Json",
     "telegram": "https://t.me/+rQTz5VL8CRpjNTZl",
-    "last update time": "03:24:40 AM 08-04-2026",
+    "last update time": "05:26:13 AM 08-04-2026",
     "matches": [
+        {
+            "event_category": "Football",
+            "title": "Nashville SC vs Club Am\u00e9rica (CONCACAF Champions Cup 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/141880_5954_NSH_AME_FC-Web.png",
+            "team_1": "Nashville SC",
+            "team_2": "Club Am\u00e9rica",
+            "status": "LIVE",
+            "event_name": "CONCACAF Champions Cup 2026",
+            "match_name": "Nashville SC vs Club Am\u00e9rica",
+            "match_id": 141880,
+            "startTime": "05:30:00 AM 08-04-2026",
+            "dai_url": "https://in-mc-fblive.fancode.com/mumbai/141880_english_hls_b905d3db8e43267_1ta-di_h264/index.m3u8",
+            "adfree_url": "https://in-mc-fblive.fancode.com/mumbai/141880_english_hls_b905d3db8e43267_1ta-di_h264/index.m3u8"
+        },
         {
             "event_category": "Cricket",
             "title": "Malaysia A vs Hong Kong, China-A (Hong Kong, China-A tour of Malaysia-A 2026)",
@@ -113,15 +127,15 @@
         },
         {
             "event_category": "Football",
-            "title": "Nashville SC vs Club Am\u00e9rica (CONCACAF Champions Cup 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/141880_5954_NSH_AME_FC-Web.png",
-            "team_1": "Nashville SC",
-            "team_2": "Club Am\u00e9rica",
+            "title": "Al Hilal SFC vs Al-Kholood Club (Roshn Saudi League 2025-2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/140725_5655_AHS_ALK_fc-web.jpg",
+            "team_1": "Al Hilal SFC",
+            "team_2": "Al-Kholood Club",
             "status": "UPCOMING",
-            "event_name": "CONCACAF Champions Cup 2026",
-            "match_name": "Nashville SC vs Club Am\u00e9rica",
-            "match_id": 141880,
-            "startTime": "05:30:00 AM 08-04-2026"
+            "event_name": "Roshn Saudi League 2025-2026",
+            "match_name": "Al Hilal SFC vs Al-Kholood Club",
+            "match_id": 140725,
+            "startTime": "11:30:00 PM 08-04-2026"
         },
         {
             "event_category": "Football",
@@ -173,18 +187,6 @@
         },
         {
             "event_category": "Football",
-            "title": "Al Hilal SFC vs Al-Kholood Club (Roshn Saudi League 2025-2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/140725_5655_AHS_ALK_fc-web.jpg",
-            "team_1": "Al Hilal SFC",
-            "team_2": "Al-Kholood Club",
-            "status": "UPCOMING",
-            "event_name": "Roshn Saudi League 2025-2026",
-            "match_name": "Al Hilal SFC vs Al-Kholood Club",
-            "match_id": 140725,
-            "startTime": "11:30:00 PM 08-04-2026"
-        },
-        {
-            "event_category": "Football",
             "title": "Uzbekistan U20 vs Jordan U20 (AFC U20 Women's Asian Cup 2026)",
             "src": "https://www.fancode.com/skillup-uploads/cms-media/141628_6021_UZ-U20_JOR-U20_FC-Web.png",
             "team_1": "Uzbekistan U20",
@@ -206,6 +208,18 @@
             "match_name": "DPR Korea U20 vs Korea Republic U20",
             "match_id": 141627,
             "startTime": "06:30:00 PM 08-04-2026"
+        },
+        {
+            "event_category": "Cricket",
+            "title": "Malaysia A vs Hong Kong, China-A (Hong Kong, China-A tour of Malaysia-A 2026)",
+            "src": "https://www.fancode.com/skillup-uploads/cms-media/Hong-Kong,-China-A-tour-of-Malaysia-A-2026-old-card.jpg",
+            "team_1": "Malaysia A",
+            "team_2": "Hong Kong, China-A",
+            "status": "UPCOMING",
+            "event_name": "Hong Kong, China-A tour of Malaysia-A 2026",
+            "match_name": "Malaysia A vs Hong Kong, China-A",
+            "match_id": 141776,
+            "startTime": "07:00:00 AM 09-04-2026"
         },
         {
             "event_category": "Tennis",
@@ -254,18 +268,6 @@
             "match_name": "Court des Princes",
             "match_id": 141667,
             "startTime": "02:30:00 PM 08-04-2026"
-        },
-        {
-            "event_category": "Cricket",
-            "title": "Malaysia A vs Hong Kong, China-A (Hong Kong, China-A tour of Malaysia-A 2026)",
-            "src": "https://www.fancode.com/skillup-uploads/cms-media/Hong-Kong,-China-A-tour-of-Malaysia-A-2026-old-card.jpg",
-            "team_1": "Malaysia A",
-            "team_2": "Hong Kong, China-A",
-            "status": "UPCOMING",
-            "event_name": "Hong Kong, China-A tour of Malaysia-A 2026",
-            "match_name": "Malaysia A vs Hong Kong, China-A",
-            "match_id": 141776,
-            "startTime": "07:00:00 AM 09-04-2026"
         },
         {
             "event_category": "Cricket",
